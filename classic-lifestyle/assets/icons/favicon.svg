@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Background -->
+  <rect width="64" height="64" rx="14" fill="#0a0a0a"/>
+  <!-- Gold ring -->
+  <rect width="64" height="64" rx="14" fill="none" stroke="#c9a227" stroke-width="2" opacity="0.5"/>
+  <!-- CL lettermark -->
+  <text
+    x="32" y="44"
+    font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+    font-size="30"
+    font-weight="800"
+    fill="#c9a227"
+    text-anchor="middle"
+    letter-spacing="-1"
+  >CL</text>
+  <!-- Flame accent -->
+  <path d="M31 54 C31 54 28 50 29 47 C30 44 33 45 33 45 C33 45 30 42 32 39 C34 36 36 38 36 38 C36 38 34 34 36 32 C38 30 40 33 39 36 C41 34 43 36 42 39 C44 37 46 40 44 43 C46 41 47 44 45 47 C47 50 44 54 44 54 L31 54 Z"
+    fill="url(#flameGrad)" opacity="0" />
+  <defs>
+    <linearGradient id="flameGrad" x1="37" y1="32" x2="37" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#e8c050"/>
+      <stop offset="100%" stop-color="#e05a1a"/>
+    </linearGradient>
+  </defs>
+</svg>
